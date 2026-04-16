@@ -1,5 +1,5 @@
 import cv2
-
+# 이것은 github 실습을 위한 수정이다요
 # Haar Cascade 파일 경로 (opencv 설치 시 기본 제공)
 cascade_path = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 face_cascade = cv2.CascadeClassifier(cascade_path)
